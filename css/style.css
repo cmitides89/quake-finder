@@ -1,0 +1,36 @@
+body{
+	width:100%;
+	font-family: Helvetica;
+}
+div#wrapper{ 
+	position:relative;
+	width:100%;
+}
+div.form{
+
+	width:400px;
+	height:200px;
+	margin-top:65px;
+	padding-left:10px;
+	/*fallback*/
+	background:rgba(255, 255, 255) transparent;
+	/*for the cool kids*/
+	background:rgba(255, 255, 255, 0.8);
+	float:right;
+	position :relative;
+	z-index: 999;
+}
+div.hide, .show{
+	width:24px;
+	height:25px;
+	float:left;
+}
+.show{
+	display:none;
+}
+a{
+	color:red;
+}
+h2{
+	margin-top: 25px;
+}
